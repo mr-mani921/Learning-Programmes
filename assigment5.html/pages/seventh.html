@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100 font-sans text-gray-800">
+    <div class="text-center mt-4">
+        <a href="../index.html" class="text-blue-600 hover:underline">Back to Home</a>
+    </div>
+    <div class="max-w-4xl mx-auto p-4">
+        <!-- Header -->
+        <header class="text-center py-6">
+            <h1 class="text-3xl font-bold text-blue-600">Weekly Weather Forecast</h1>
+            <p class="text-gray-600">Stay updated with the latest weather conditions</p>
+        </header>
+
+        <!-- Weather Table -->
+        <table class="table-auto w-full bg-white shadow-md rounded-lg overflow-hidden">
+            <thead class="bg-blue-500 text-white">
+                <tr>
+                    <th class="px-4 py-2">Date</th>
+                    <th class="px-4 py-2">Temperature</th>
+                    <th class="px-4 py-2">Condition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-center border-b">
+                    <td class="px-4 py-2">Monday</td>
+                    <td class="px-4 py-2">25°C</td>
+                    <td class="px-4 py-2">Sunny</td>
+                </tr>
+                <tr class="text-center border-b bg-gray-100">
+                    <td class="px-4 py-2">Tuesday</td>
+                    <td class="px-4 py-2">22°C</td>
+                    <td class="px-4 py-2">Partly Cloudy</td>
+                </tr>
+                <tr class="text-center border-b">
+                    <td class="px-4 py-2">Wednesday</td>
+                    <td class="px-4 py-2">18°C</td>
+                    <td class="px-4 py-2">Rainy</td>
+                </tr>
+                <tr class="text-center border-b bg-gray-100">
+                    <td class="px-4 py-2">Thursday</td>
+                    <td class="px-4 py-2">24°C</td>
+                    <td class="px-4 py-2">Sunny</td>
+                </tr>
+                <tr class="text-center border-b">
+                    <td class="px-4 py-2">Friday</td>
+                    <td class="px-4 py-2">20°C</td>
+                    <td class="px-4 py-2">Cloudy</td>
+                </tr>
+                <tr class="text-center border-b bg-gray-100">
+                    <td class="px-4 py-2">Saturday</td>
+                    <td class="px-4 py-2">23°C</td>
+                    <td class="px-4 py-2">Sunny</td>
+                </tr>
+                <tr class="text-center">
+                    <td class="px-4 py-2">Sunday</td>
+                    <td class="px-4 py-2">19°C</td>
+                    <td class="px-4 py-2">Rainy</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 mt-8">
+            &#169; Weather Forecast. All Rights Reserved.
+        </footer>
+    </div>
+</body>
+</html>
