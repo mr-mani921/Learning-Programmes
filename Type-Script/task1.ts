@@ -1,3 +1,10 @@
+/*
+Task 1: Create and Use Basic Types
+Create a TypeScript file (task1.ts) and do the following
+1.Define a type for a User with properties: id (number), name (string), and email (string).
+2.Create a function called greetUser that takes a User object and returns a greeting message like: "Hello, [name]! Welcome to TypeScript."
+3.Create a few User objects and call the greetUser function with them.
+*/
 interface user {
   id: number;
   name: string;
@@ -11,6 +18,6 @@ const user = [
 function greetUser(obj: user) {
   console.log(`Hello ${obj.name}!`);
 }
-user.forEach(item => {
-    greetUser(item)
+user.forEach((item) => {
+  greetUser(item);
 });
