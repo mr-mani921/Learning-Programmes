@@ -1,13 +1,5 @@
 "use strict";
-/*
-
-Task 2: Working with Optional and Readonly Properties
-
-1. Update the User interface so that the email property is optional (email?: string) and the id property is readonly (readonly id: number).
-2. Create a function updateUserEmail that takes a User object and a new email string, and returns a new User object with the updated email.
-3. Add a User object to the user array and demonstrate updating the email using the updateUserEmail function. Try updating the id property and show that it's not allowed.
-
-*/
+// /*
 const users = [
     { id: 1, name: "mani", email: "a@a.com" },
     { id: 2, name: "Professor", email: "b@b.com" },
