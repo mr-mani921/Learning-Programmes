@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: auto;
+  background-color: aquamarine;
+  color: white;
+}
+
+header {
+  background-color: gray;
+}
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.logo {
+  padding-left: 3vw;
+  width: 10vw;
+}
+.links {
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: black;
+}
+.phone {
+  display: none;
+}
+.tablet {
+  display: none;
+}
+
+.blocks {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    flex-wrap: wrap;
+}
+.block {
+    height: 30vh;
+    width: 30vh;
+    border: 2px solid black;
+    padding: 2vh;
+    margin: 2vh;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+  .links {
+    width: 80vw;
+  }
+  .phone {
+    display: block;
+  }
+  .tablet {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 700px) {
+  body {
+    background-color: aqua;
+  }
+  .phone {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+  .laptop {
+    display: none;
+  }
+}
